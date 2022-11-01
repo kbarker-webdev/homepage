@@ -2,52 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+
 </head>
 
 <body>
-    <div class="welcome">
-        <video width="700" autoplay muted>
-            <source src="./img/Welcome.mp4" type="video/mp4">
-        </video>
+  <div class="welcome">
+    <video width="700" autoplay muted>
+      <source src="./img/Welcome.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="section-container">
+    <h1 class="section-heading">About Me</h1>
+    <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ligula et nibh accumsan
+      gravida eget a risus. Maecenas consequat augue nibh, id venenatis velit lobortis quis. Curabitur eleifend, lectus
+      quis semper varius, ex eros pellentesque tellus, venenatis ultricies felis nisi nec lorem. In finibus commodo
+      velit vel facilisis. Fusce faucibus interdum urna, sed interdum eros. Vivamus a cursus odio. Duis fringilla est
+      mattis faucibus tristique. In vel est risus. Mauris ut urna ipsum.</p>
+      
+      <img class="icon" src="./img/html5.ico" style="width: 2rem; height: auto;">
+  <img class="icon" src="./img/css3.ico" style="width: 2rem; height: auto; ">
+  <img class="icon" src="./img/react.ico" style="width: 2rem; height: auto; ">
+  <img class="icon" src="./img/node-js.ico" style="width: 2rem; height: auto; ">
+  <img class="icon" src="./img/express.ico" style="width: 2rem; height: auto; ">
+  <img class="icon" src="./img/postgresql.ico" style="width: 2rem; height: auto; ">
+  <img class="icon" src="./img/ubuntu.ico" style="width: 2rem; height: auto; ">
+  <img class="icon" src="./img/github.png" style="width: 2rem; height: auto; ">
+  <br/>
+  </div>
+  <div class="section-container">
+    <h1 class="section-heading">My Projects</h1>
+    <div class="slider" id="slider">
+
+      <a href="#kcliquors" id="kcliquors-btn">1</a>
+      <a href="#connect4" id="connect4-btn">2</a>
+      <a href="#kristimadeit" id="kristimadeit-btn">3</a>
+
+      <div class="slides" id="slides">
+        <div id="kcliquors">
+          <img class="slide" src="./img/kck.jpg" style="width:300px">
+        </div>
+        <div id="connect4">
+          <img class="slide" src="./img/connect4.png" style="width:300px">
+        </div>
+        <div id="kristimadeit">
+          <img class="slide" src="./img/kcc.png" style="width:300px">
+        </div>
+      </div>
+      <p class="section-content" id="product-info-kcliquors">Full stack ecommerce website utilizing Node.js, React,
+        Express.js, PostgreSQL, JsonWebToken, BCrypt, and more. The website allows for users to register an account or
+        continue as a guest. Fully interactive cart with the ability to add or subtract items and then checkout. It also
+        has an advanced admin only panel that allows admins to add products, edit products, and view all users.</p>
+      <p class="section-content" id="product-info-connect4">This is a fun little connect four game I created using
+        javascript. It is able to be played as one or two players. If one player is selected the second player will be
+        the computer. Users are able to input their name and then begin the game.</p>
+      <p class="section-content" id="product-info-kristimadeit">Full stack ecommerce website utilizing Node.js, React,
+        Express.js, PostgreSQL, JsonWebToken. I built this website for my mother's art work. Users are able to fully
+        customize their cup and place an order. It has an admin panel where the admin can manage all open orders.</p>
     </div>
-    <div class="section-container">
-        <h1 class="section-heading">About Me</h1>
-        <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ligula et nibh accumsan gravida eget a risus. Maecenas consequat augue nibh, id venenatis velit lobortis quis. Curabitur eleifend, lectus quis semper varius, ex eros pellentesque tellus, venenatis ultricies felis nisi nec lorem. In finibus commodo velit vel facilisis. Fusce faucibus interdum urna, sed interdum eros. Vivamus a cursus odio. Duis fringilla est mattis faucibus tristique. In vel est risus. Mauris ut urna ipsum.</p>
-    </div>
-    <div class="section-container">
-        <h1 class="section-heading">My Projects</h1>
-        <div class="container">
-            <div class="card">
-              <h3 class="title">Card 1</h3>
-              <div class="bar">
-              </div>
-              
-            </div>
-            <div class="card">
-              <h3 class="title">Card 2</h3>
-              <div class="bar">
-              </div>
-              
-            </div>
-            <div class="card">
-              <h3 class="title">Card 3</h3>
-              <div class="bar">
-              </div>
-            
-            </div>
-            <div class="card">
-              <h3 class="title">Card 4</h3>
-              <div class="bar">
-              </div>
-              
-            </div>
-          </div>
-    </div>
+
+
+
+
+
+
+    
+  </div>
+  
+<div class="section-container">
+  <h1 class="section-heading">Reach Me</h1>
+  <p class="section-content">
+    
+    <a class="link" href="https://www.linkedin.com/in/kenneth-barker-developer/">
+      <img class="icon" src="./img/linkedin.ico"> 
+      <text class="contact">Kenneth Barker LinkedIn</text>
+  </a>
+  <a class="link" href="https://github.com/kbarker-webdev">
+    <img class="icon" src="./img/github.png"> 
+    <text class="contact">GitHub</text>
+</a>
+<br/>
+<a class="mailtoui" href="mailto:kbarker.webdev@gmail.com">
+  <img class="icon" src="./img/gmail.ico"> 
+  <text class="contact">kbarker.webdev@gmail.com</text>
+</a>
+  </p>
+</div>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js"></script>
 </body>
 
 </html>
