@@ -120,6 +120,7 @@ body {
   width: 300px;
   text-align: center;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .slides {
@@ -199,6 +200,7 @@ img .slide{
   left: 0;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 .slider>a {
